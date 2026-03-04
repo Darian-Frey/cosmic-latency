@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or the Latency Field theory in your research, please cite it as below."
+authors:
+  - family-names: "Hartley"
+    given-names: "Shane"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "cosmic-latency: Resolving the Hubble Tension via Holographic Update Frequency"
+version: 1.1.0
+doi: 10.5281/zenodo.CODEGEO2026P3
+date-released: 2026-03-04
+url: "https://github.com/Darian-Frey/cosmic-latency"
+repository-code: "https://github.com/Darian-Frey/cosmic-latency"
+keywords:
+  - "Cosmology"
+  - "Hubble Tension"
+  - "Holographic Principle"
+  - "Dark Energy"
+  - "CODE-GEO"
+abstract: >-
+  A non-minimal scalar-tensor framework that resolves the 4.8-sigma Hubble Tension
+  by treating universal expansion as the informational update frequency of the
+  holographic substrate. Includes the Claude-Frey Pivot (z=0.67) and the 
+  BBN-Wall suppression (z=0.245).

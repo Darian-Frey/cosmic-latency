@@ -1,0 +1,59 @@
+% CODE-GEO V1.1: Field Equations for Cosmological Latency
+% Derived: 2026-03-04 | REF_ID: HUBBLE_UNIFIED_LOCK
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, bm}
+
+\begin{document}
+
+\section*{The Latency Field Action Principle}
+
+The holographic update frequency $\nu_{\text{update}}$ is manifested as a non-minimally coupled scalar field $\phi$ with the following action:
+
+\begin{equation}
+S = \int d^4x \sqrt{-g} \left[ \frac{R}{16\pi G} - \frac{1}{2}g^{\mu\nu}\partial_\mu\phi \partial_\nu\phi - V(\phi) - \frac{\xi}{2}\phi^2 R + \mathcal{L}_{\text{int}} \right]
+\end{equation}
+
+Where the interaction term $\mathcal{L}_{\text{int}}$ provides the derivative coupling to the Einstein tensor to ensure ghost-free stability:
+
+\begin{equation}
+\mathcal{L}_{\text{int}} = \frac{\alpha_c}{\phi_*} \phi G^{\mu\nu} \partial_\mu \phi \partial_\nu \phi
+\end{equation}
+
+\section*{The Reconstructed Potential (\phi)$}
+
+The potential (\phi)$ tracks the critical density $\rho_{\text{crit}}$ at high redshift and "thaws" at the pivot * = 0.67$:
+
+\begin{equation}
+V(\phi) = \frac{3H_0^2}{8\pi G} \left[ E^2(\phi)\mathcal{G}(\phi) - \frac{(1+z_*)^2\phi_*^2 E^2(\phi)}{2((1+z_*)^2 + (1+z(\phi))^2)} \right]
+\end{equation}
+
+Where the mapping between the field $\phi$ and redshift $ is given by the arctan trajectory:
+
+\begin{equation}
+1+z = (1+z_*) \tan\left(\frac{\phi}{\phi_*}\right)
+\end{equation}
+
+\section*{Effective Hubble Expansion ({\text{eff}}$)}
+
+The observed Hubble constant $ is shifted by the informational latency kernel $\mathcal{F}(z)$:
+
+\begin{equation}
+H_{\text{eff}}^2(z) = \frac{H^2(z)}{\mathcal{F}^2(z)} = H^2(z) \left[ 1 - \frac{8\pi G}{3 H^2(z)} \rho_{\text{DE}}^{\text{eff}}(z) \right]
+\end{equation}
+
+Where the effective dark energy density is:
+
+\begin{equation}
+\rho_{\text{DE}}^{\text{eff}} = \rho_\phi + 3\xi H^2\phi^2 - 6\xi H\phi\dot{\phi}
+\end{equation}
+
+\section*{The BBN Wall Suppression}
+
+To maintain compliance with the 4.5\% BBN limit, the potential is modified by an exponential wall at $\phi \to \frac{\pi\phi_*}{2}$:
+
+\begin{equation}
+V_{\text{BBN}}(\phi) = V_{\text{BBN}}^0 \cdot \exp \left[ \lambda \left( \frac{\phi}{\phi_*} - \frac{\pi}{2} \right)^{-2} \right]
+\end{equation}
+
+\end{document}
